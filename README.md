@@ -2,12 +2,12 @@
 
 ## 👥 Thành Viên Nhóm
 
-| STT | Họ và Tên | Vai Trò |
+| STT | Họ và Tên | MSHV |
 |-----|-----------|---------|
-| 1 | **Phan Hoàng Khải** | 
-| 2 | **Lê Minh Nhật** | 
-| 3 | **Nguyễn Phú Thiện** | 
-| 4 | **Trần Quang Tùng** | 
+| 1 | **Phan Hoàng Khải** | 2531308
+| 2 | **Lê Minh Nhật** | 2591318
+| 3 | **Nguyễn Phú Thiện** | 2531312
+| 4 | **Trần Quang Tùng** | 2531315
 
 ---
 
