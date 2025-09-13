@@ -135,8 +135,8 @@ Dự án này được tạo ra để:
 
 **Nhóm phát triển**: Rule-Based Chatbot Team  
 **Môn học**: Xử Lý Ngôn Ngữ Tự Nhiên  
-**Năm học**: 2024  
-**Trường**: [Tên trường đại học]
+**Năm học**: 2025  
+**Trường**: Trường đại học Sư Phạm Kỹ Thuật TPHCM - Thạc sĩ
 
 ---
 
