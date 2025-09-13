@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule-Based Chatbot - Thư Viện Assistant</title>
+    <link rel="stylesheet" href="chatbot-app-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1><i class="fas fa-robot"></i> Thư Viện Assistant</h1>
+            <p>Chatbot dựa trên quy tắc - Hỗ trợ thông tin thư viện</p>
+        </header>
+
+        <!-- Main Chatbot -->
+        <main class="chatbot-main">
+            <div class="chatbot-container">
+                <div class="chatbot-body">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                <i class="fas fa-robot"></i>
+                                <div class="welcome-message">
+                                    <p>Xin chào! Tôi là trợ lý thư viện. Tôi có thể giúp bạn với các câu hỏi về:</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Giờ mở cửa</li>
+                                        <li><i class="fas fa-id-card"></i> Làm thẻ thư viện</li>
+                                        <li><i class="fas fa-book"></i> Mượn và trả sách</li>
+                                        <li><i class="fas fa-gavel"></i> Quy định thư viện</li>
+                                        <li><i class="fas fa-wifi"></i> Dịch vụ wifi và máy tính</li>
+                                        <li><i class="fas fa-calendar"></i> Sự kiện và hoạt động</li>
+                                    </ul>
+                                    <p>Hãy hỏi tôi bất cứ điều gì!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chat-input-container">
+                        <div class="input-wrapper">
+                            <input type="text" id="userInput" placeholder="Nhập câu hỏi của bạn..." autocomplete="off">
+                            <button id="sendBtn" class="send-btn">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="quick-questions">
+                            <h4><i class="fas fa-lightbulb"></i> Câu hỏi thường gặp:</h4>
+                            <div class="quick-buttons">
+                                <button class="quick-btn" data-question="Giờ mở cửa thư viện">
+                                    <i class="fas fa-clock"></i> Giờ mở cửa
+                                </button>
+                                <button class="quick-btn" data-question="Làm thẻ thư viện">
+                                    <i class="fas fa-id-card"></i> Làm thẻ
+                                </button>
+                                <button class="quick-btn" data-question="Mượn sách">
+                                    <i class="fas fa-book"></i> Mượn sách
+                                </button>
+                                <button class="quick-btn" data-question="Trả sách">
+                                    <i class="fas fa-undo"></i> Trả sách
+                                </button>
+                                <button class="quick-btn" data-question="Gia hạn sách">
+                                    <i class="fas fa-calendar-plus"></i> Gia hạn
+                                </button>
+                                <button class="quick-btn" data-question="Phí phạt">
+                                    <i class="fas fa-exclamation-triangle"></i> Phí phạt
+                                </button>
+                                <button class="quick-btn" data-question="Tìm sách">
+                                    <i class="fas fa-search"></i> Tìm sách
+                                </button>
+                                <button class="quick-btn" data-question="Quy định thư viện">
+                                    <i class="fas fa-gavel"></i> Quy định
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <p><i class="fas fa-info-circle"></i> Rule-Based Chatbot - Demo cho môn Xử Lý Ngôn Ngữ Tự Nhiên</p>
+                <div class="footer-stats">
+                    <span><i class="fas fa-cogs"></i> 12 Quy tắc</span>
+                    <span><i class="fas fa-language"></i> Hỗ trợ đa ngôn ngữ</span>
+                    <span><i class="fas fa-mobile-alt"></i> Responsive</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="chatbot-app-script.js"></script>
+</body>
+</html>
